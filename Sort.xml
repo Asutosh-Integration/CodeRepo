@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<MANAGER_HIERARCHY> 
+  <tables>
+    <II_OUTPUT>
+      <row id="0">
+        <LNAME>Gola</LNAME> 
+      </row> 
+      <row id="1">
+        <LNAME>Chaganti</LNAME>
+      </row>
+    </II_OUTPUT>
+  </tables>
+</MANAGER_HIERARCHY>
