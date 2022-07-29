@@ -117,7 +117,7 @@
                 </ifl:property>
                 <ifl:property>
                     <key>headerTable</key>
-                    <value/>
+                    <value>&lt;row&gt;&lt;cell id='Action'&gt;Create&lt;/cell&gt;&lt;cell id='Type'&gt;constant&lt;/cell&gt;&lt;cell id='Value'&gt;atest&lt;/cell&gt;&lt;cell id='Default'&gt;&lt;/cell&gt;&lt;cell id='Name'&gt;atest&lt;/cell&gt;&lt;cell id='Datatype'&gt;&lt;/cell&gt;&lt;/row&gt;</value>
                 </ifl:property>
                 <ifl:property>
                     <key>wrapContent</key>
@@ -144,6 +144,9 @@
     </bpmn2:process>
     <bpmndi:BPMNDiagram id="BPMNDiagram_1" name="Default Collaboration Diagram">
         <bpmndi:BPMNPlane bpmnElement="Collaboration_1" id="BPMNPlane_1">
+            <bpmndi:BPMNShape bpmnElement="CallActivity_10" id="BPMNShape_CallActivity_10">
+                <dc:Bounds height="60.0" width="100.0" x="462.0" y="128.0"/>
+            </bpmndi:BPMNShape>
             <bpmndi:BPMNShape bpmnElement="EndEvent_2" id="BPMNShape_EndEvent_2">
                 <dc:Bounds height="32.0" width="32.0" x="703.0" y="142.0"/>
             </bpmndi:BPMNShape>
@@ -159,16 +162,13 @@
             <bpmndi:BPMNShape bpmnElement="Participant_Process_1" id="BPMNShape_Participant_Process_1">
                 <dc:Bounds height="220.0" width="579.0" x="240.0" y="60.0"/>
             </bpmndi:BPMNShape>
-            <bpmndi:BPMNShape bpmnElement="CallActivity_10" id="BPMNShape_CallActivity_10">
-                <dc:Bounds height="60.0" width="100.0" x="462.0" y="128.0"/>
-            </bpmndi:BPMNShape>
-            <bpmndi:BPMNEdge bpmnElement="SequenceFlow_3" id="BPMNEdge_SequenceFlow_3" sourceElement="BPMNShape_StartEvent_2" targetElement="BPMNShape_CallActivity_10">
-                <di:waypoint x="308.0" xsi:type="dc:Point" y="158.0"/>
-                <di:waypoint x="512.0" xsi:type="dc:Point" y="158.0"/>
-            </bpmndi:BPMNEdge>
             <bpmndi:BPMNEdge bpmnElement="SequenceFlow_11" id="BPMNEdge_SequenceFlow_11" sourceElement="BPMNShape_CallActivity_10" targetElement="BPMNShape_EndEvent_2">
                 <di:waypoint x="512.0" xsi:type="dc:Point" y="158.0"/>
                 <di:waypoint x="719.0" xsi:type="dc:Point" y="158.0"/>
+            </bpmndi:BPMNEdge>
+            <bpmndi:BPMNEdge bpmnElement="SequenceFlow_3" id="BPMNEdge_SequenceFlow_3" sourceElement="BPMNShape_StartEvent_2" targetElement="BPMNShape_CallActivity_10">
+                <di:waypoint x="308.0" xsi:type="dc:Point" y="158.0"/>
+                <di:waypoint x="512.0" xsi:type="dc:Point" y="158.0"/>
             </bpmndi:BPMNEdge>
         </bpmndi:BPMNPlane>
     </bpmndi:BPMNDiagram>

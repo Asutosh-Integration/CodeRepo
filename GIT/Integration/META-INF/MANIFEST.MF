@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 SAP-RuntimeProfile: iflmap
 Bundle-SymbolicName: Integration; singleton:=true
 Bundle-Name: Integration
-Bundle-Version: 1.0.2
+Bundle-Version: 1.0.3
 Bundle-ManifestVersion: 2
 Origin-Bundle-SymbolicName: Integration
 SAP-NodeType: IFLMAP
